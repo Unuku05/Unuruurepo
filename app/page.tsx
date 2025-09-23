@@ -1,6 +1,7 @@
 import Layout from "./components/layout";
 import styles from "@/app/about/page.module.css";
 import Link from "next/link";
+import Image from "next/image";
 export default function About() {
   return (
     <>
@@ -15,6 +16,14 @@ export default function About() {
           <p> Bi 2005 oni 9n sariin 21nd tursun </p>
           <p>Morin khuur togloh durtai</p>
         </section>
+              {/* Зураг оруулж байна */}
+      <Image
+        src="/images/mountain.jpg" 
+        alt="Beautiful Mountain"   
+        width={600}                
+        height={400}               
+        className="rounded-lg shadow-lg"
+      />  
       </main>
       </Layout>
     </>
