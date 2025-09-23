@@ -12,16 +12,16 @@ export const photos: Photo[] = [
     description: "A beautiful mountain view.",
     src: "/images/mountain.jpg",
   },
-//   {
-//     id: "2",
-//     title: "City",
-//     description: "City skyline during sunset.",
-//     src: "/images/city.jpg",
-//   },
-//   {
-//     id: "3",
-//     title: "Nature",
-//     description: "Lush green forest scenery.",
-//     src: "/images/nature.jpg",
-//   },
+  {
+    id: "2",
+    title: "City",
+    description: "City skyline during sunset.",
+    src: "/images/city.jpg",
+  },
+  {
+    id: "3",
+    title: "Nature",
+    description: "Lush green forest scenery.",
+    src: "/images/nature.jpg",
+  },
 ];
