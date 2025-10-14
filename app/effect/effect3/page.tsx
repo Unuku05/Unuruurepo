@@ -9,7 +9,6 @@ export default function Timer() {
       setCount((prev) => prev + 1);
     }, 1000);
 
-    // Cleanup: Component устах үед interval цэвэрлэнэ
     return () => clearInterval(interval);
   }, []);
 
