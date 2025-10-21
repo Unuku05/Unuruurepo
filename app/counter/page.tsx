@@ -46,6 +46,14 @@ export default function CounterPage() {
         >
           - Minus
         </button>
+        <button
+          style={buttonStyle}
+          onMouseOver={(e) => (e.currentTarget.style.backgroundColor = buttonHover.backgroundColor)}
+          onMouseOut={(e) => (e.currentTarget.style.backgroundColor = buttonStyle.backgroundColor)}
+          onClick={() => setCount(0)}
+        >
+          reset
+        </button>
       </div>
     </Layout>
   );
