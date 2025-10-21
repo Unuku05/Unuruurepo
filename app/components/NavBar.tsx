@@ -8,6 +8,7 @@ export default function Navbar() {
       <Link href="/blog">Blog</Link> |
       <Link href="/gallery">Gallery</Link> | 
       <Link href="/contact">Contact</Link> |
+      <Link href="/counter">Counter</Link> |
     </nav>
   );
 }
