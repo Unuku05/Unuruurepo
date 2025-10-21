@@ -9,6 +9,7 @@ export default function Navbar() {
       <Link href="/gallery">Gallery</Link> | 
       <Link href="/contact">Contact</Link> |
       <Link href="/counter">Counter</Link> |
+      <Link href="/todo">Todo</Link> |
     </nav>
   );
 }
