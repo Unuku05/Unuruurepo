@@ -1,8 +1,10 @@
 "use client";
 import { useState } from "react";
 import Link from "next/link"; // 👈 import Link
+import { useRouter } from "next/navigation";
 
 export default function RegisterPage() {
+    const router = useRouter()
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
@@ -31,6 +33,7 @@ export default function RegisterPage() {
 
     // optionally redirect to login after success:
     // window.location.href = "/login";
+    router.push("/")
   };
 
   return (
@@ -74,7 +77,7 @@ export default function RegisterPage() {
       {/* 👇 Link to go back to login */}
       <p className="mt-3 text-sm">
         Аль хэдийн бүртгэлтэй юу?{" "}
-        <Link href="/form/login" className="text-blue-600 underline">
+        <Link href="/" className="text-blue-600 underline">
           Нэвтрэх
         </Link>
       </p>
