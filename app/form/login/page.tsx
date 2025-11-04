@@ -23,7 +23,7 @@ export default function LoginPage() {
     setError("");
     alert(`Нэвтэрлээ: ${email}`);
 
-    router.push("/home")
+    router.push("/")
   };
 
   return (
